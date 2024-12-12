@@ -1,0 +1,373 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Itim&display=swap');
+
+body{
+  margin: 0%;
+  padding: 0%;
+  background-color: rgba(128, 128, 128, 0.459);
+}
+
+.containertest{
+  font-size: 25px;
+  font-family: "Itim", serif;
+  color:white;
+  text-align:right;
+  margin-left: 100px;
+  margin-right: 130px;
+  padding-right: 20px;
+  height: 45vh; /* Altura fixa da div (ajuste como desejar) */
+  background-image: url('/Imagens/bitcabeca.jpg'); /* Define a imagem de fundo */
+  opacity: 0.6;
+  background-size: cover; /* Faz a imagem cobrir todo o espaço da div */
+  background-repeat: no-repeat; /* Evita repetições */
+  background-position:center; /* Centraliza a imagem */ 
+  position: relative;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li a{
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size:25px;
+  color: white;
+  border-radius: 30px;
+  transition: 0.6s;
+}
+
+nav ul li a:hover{
+  background-color: blue;
+}
+ 
+.Titulo{
+  margin-left: 800px;
+  margin-top: 150px;
+  transform: translate(-50%, -50%); /* Ajusta para o centro exato */
+  color: rgb(255, 215, 0); /* Cor do texto */
+  font-size: 80px; /* Tamanho do texto */
+  font-weight: bold; /* Deixa o texto em negrito */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adiciona sombra ao texto */
+  text-align: center; /* Centraliza o texto */
+}
+
+.moldura{
+  height: 595px;
+  margin-left: 100px;
+  margin-right: 130px;
+  background-color: grey;
+}
+
+.titulo1{
+  padding: 0%;
+  margin: 0%;
+  background-color: rgba(128, 128, 128, 0.459);
+  background-size: cover;
+  color: rgba(255, 0, 0, 0.76); /* Cor do texto */
+  font-family: "Itim", serif;
+  font-size: 50px; /* Tamanho do texto */
+  font-weight: bold; /* Deixa o texto em negrito */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adiciona sombra ao texto */
+  text-align: center; /* Centraliza o texto */
+  }
+
+.texto1{
+  padding: 0px 15px 0px 15px;
+  font-family: "Itim", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(19, 19, 19); /* Cor do texto */
+  font-size: 20px; /* Tamanho do texto */
+  text-align:justify; /* Centraliza o texto */
+  white-space: pre-line;
+}
+
+.botao{
+  border-width: 10px;
+  border-style: double;
+  border-color: black;
+  width: 1500px;
+  background-color: rgba(128, 128, 128, 0.459);
+  position:relative; /* Posiciona em relação ao container */
+  top: 50%; /* Centraliza verticalmente */
+  left: 50%; /* Centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* Ajusta para o centro exato */
+  color: white; /* Cor do texto */
+  font-family: "Itim", serif;
+  font-size: 20px; /* Tamanho do texto */
+  font-weight: bold; /* Deixa o texto em negrito */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adiciona sombra ao texto */
+  text-align:justify; /* posição texto */
+}
+
+.botao:hover{
+  background-color: black;
+}
+
+
+.container{
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(195deg, #786746, #6E5C3A, #5A3B1E, gold);
+  margin-left: 100px;
+  margin-right: 130px;
+  gap: 20px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ }
+
+.titulo2{
+  margin-top:100x;
+  margin-left: 250px;
+  color: rgba(255, 0, 0, 0.76); /* Cor do texto */
+  font-family: "Itim", serif;
+  font-size: 50px; /* Tamanho do texto */
+  font-weight: bold; /* Deixa o texto em negrito */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adiciona sombra ao texto */
+}
+
+.button1{
+  margin-top:100x;
+  margin-left: 350px;
+  border-width: 10px;
+  border-style: double;
+  border-color: black;
+  width: 150px;
+  background-color: rgba(128, 128, 128, 0.459);
+  position:relative; /* Posiciona em relação ao container */
+  margin-top: 15px;
+  top: 60%; /*Centraliza verticalmente */
+  left: 50%; /*Centraliza horizontalmente*/
+  transform: translate(-50%, -50%); /* Ajusta para o centro exato */
+  color: white; /* Cor do texto */
+  font-family: "Itim", serif;
+  font-size: 20px; /* Tamanho do texto */
+  font-weight: bold; /* Deixa o texto em negrito */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adiciona sombra ao texto */
+  text-align:center; /* posição texto */
+}
+
+.button1:hover{
+  background-color: black;
+}
+
+.video-container{
+  margin-left: 100px;
+  margin-right: 130px;
+  display: flex;
+  align-items: flex-start;
+  background-color: #3b3b3b;
+ }
+
+ .text-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ }
+
+ .titulo3{
+  margin-top:100x;
+  margin-left: 160px;
+  color: rgba(255, 0, 0, 0.76); /* Cor do texto */
+  font-family: "Itim", serif;
+  font-size: 50px; /* Tamanho do texto */
+  font-weight: bold; /* Deixa o texto em negrito */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adiciona sombra ao texto */
+ }
+
+.p2{
+  margin-top:100x;
+  margin-left: 110px;
+  color: rgba(255, 0, 0, 0.76); /* Cor do texto */
+  font-size: 25px;
+}
+
+.tri-container{
+  padding-top: 30px;
+  margin-left: 100px;
+  margin-right: 0px;
+  justify-content: space-around;
+  display: flex;
+  width: 90%;
+  max-width: 1690px;
+  background-color: grey;
+}
+
+.card {
+  text-align: center;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
+
+.molduraTI{
+  height: 2270px;
+  margin-left: 100px;
+  margin-right: 130px;
+  background-image: linear-gradient(195deg, #786746, #6E5C3A, #5A3B1E, gold);
+}
+
+.texto1TI{
+  padding: 0px 15px 0px 15px;
+  font-family: "Itim", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(19, 19, 19); /* Cor do texto */
+  font-size: 20px; /* Tamanho do texto */
+  text-align:justify; /* Centraliza o texto */
+  white-space: pre-line;
+}
+
+p{
+  font-family: "Itim", serif;
+  font-size: 30px; /* Tamanho do texto */
+  text-align:center; /* Centraliza o texto */
+  white-space: pre-line;
+  color: white;
+}
+
+h3{
+  font-family: "Itim", serif;
+  color: white;
+}
+
+.molduraCripto{
+  height: 1200px;
+  margin-left: 100px;
+  margin-right: 130px;
+  background-image: linear-gradient(195deg, #786746, #6E5C3A, #5A3B1E, gold);
+}
+
+.moldurasobre{
+  height: 1200px;
+  margin-left: 100px;
+  margin-right: 130px;
+  background-image: linear-gradient(195deg, #786746, #6E5C3A, #5A3B1E, gold);
+}
+
+.text-container3{
+  text-align: justify; /* Justifica o texto */
+  max-width: 900px; /* Define uma largura máxima para o texto */
+}
+
+.sobre{
+  font-family: "Itim", serif;
+  font-size: 30px;
+  text-align: justify;
+}
+
+.form-container {
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 1650px;/*não ultrapassar essa medida*/
+  width: 100%;/*ocupar 100% de telas menores em relação ao max-widht*/
+  margin-left: 100px;
+  margin-right: 130px;
+  background-color: grey;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: black;
+}
+
+input, textarea {
+  width:98.5%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: none;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 500px;
+}
+
+button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;/* cursor vira maozinha*/
+}
+
+button[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+button[type="reset"] {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+button[type="reset"]:hover {
+  background-color:rgba(89, 89, 136, 0.482);
+}
+
+.footer{
+  text-align: right;
+  margin-right: 130px;
+  font-size: 10px;
+  color: black;
+}
